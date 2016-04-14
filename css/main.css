@@ -1,0 +1,329 @@
+/***** Overall Styling *****/
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #747476;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	color: #fff;
+	margin-bottom: 25px;
+	margin-top: 15px;
+}
+
+h4 a {
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
+}
+
+h4 a:hover,
+h4 a:visited {
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+
+/***** Main/First container styling *****/
+
+.top-wrapper {
+	min-height: 100%;
+	min-width: 265px;
+	margin-left: auto;
+	margin-right: auto;
+	background: radial-gradient(#05F292, #00DBC9);
+}
+
+nav ul {
+	margin: 0;
+	padding: 20px;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+	margin: 10px;
+	border-bottom: 2px solid #747475;
+	border-top: 2px solid #747475;
+	color: #747475;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+nav a {
+	text-decoration: none;
+	color: #747475;
+	padding: 15px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+
+nav a:visited {
+	color: #747475;
+	font-weight: bold;
+}
+
+
+nav a:hover {
+	color: #fff;
+	font-weight: bold;
+}
+
+.top-wrapper h1 {
+	text-align: center;
+	list-style: none;
+	color: #747475;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 2.5em;
+}
+
+.top-wrapper p {
+	text-align: center;
+	font-size: 1.2em;
+	color: #747475;
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 10px 0px;
+}
+
+#tea-time {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 50%;
+	border: solid #fff 2px;
+	opacity: 0.4;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+
+
+
+
+
+
+/***** Developer Wrapper Styling *****/
+
+.developer-wrapper {
+	min-width: 265px;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	background: #05F292;
+}
+
+.languages {
+	font-family: 'Julius Sans One', sans-serif;
+	min-width: 265px;
+}
+
+.languages header {
+	height: auto;
+	min-height: 10vh;
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 10vh;
+	font-weight: bold;
+	font-size: 2em;
+	color: #fff;
+}
+
+.lang-box {
+	float: left;
+	width: 50%;
+	min-width: 120px;
+	height: 20vh;
+}
+
+.languages h3 {
+	position: relative;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 20vh;
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 1.5em;
+	border-top: 10px solid #fff;
+	border-right: 5px solid #fff;
+	border-left: 5px solid #fff;
+}
+
+.javascript,
+.css,
+.html {
+	color: #fff;
+}
+
+.ruby,
+.swift,
+.sql {
+	color: #fff;
+}
+
+.projects-container {
+	color: #747475;
+	width: 100%;
+	min-width: 265px;
+	min-height: 30vh;
+	height: auto;
+	border-top: 10px solid #fff;
+	display: flex;
+	align-items: center;
+}
+
+.projects-container img {
+	max-width: 100%;
+	border-radius: 50%;
+	border: 2px solid #747475;
+	padding: 10px;
+	margin: 10px;
+}
+
+.projects-container p {
+	font-family: 'Raleway', sans-serif;
+	margin: 20px;
+	padding: 20px;
+}
+
+
+
+
+
+
+/***** About Wrapper Styling *****/
+
+
+.about-wrapper {
+	min-height: 100%;
+	height: auto;
+	margin: 0;
+	background: #00DBC9;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+}
+
+.about-wrapper header {
+	font-size: 4em;
+	font-weight: bold;
+	color: #fff;
+	text-shadow:  -5px 2px 5px #58585A;
+	text-align: center;
+	padding: 10px;
+}
+
+.about-wrapper p {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	padding: 10px;
+	margin: 0;
+}
+
+#headshot {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	max-width: 75%;
+	height: auto;
+	width: auto;
+	box-shadow:  -1px 1px 5px 6px #58585A;
+}
+
+
+
+
+
+/***** About Wrapper Styling *****/
+
+
+.contact-wrapper {
+	min-width: 265px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background: #747475;
+	color: #00F1AF;
+	padding: 0;
+}
+
+.contact-wrapper section {
+	border: 8px solid #00F1AF;
+}
+
+.contact-wrapper header {
+	font-family: 'Righteous', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding: 10px;
+
+}
+
+.contact-wrapper ul {
+	display: inline;
+	text-align: center;
+}
+
+.contact-wrapper li {
+	list-style: none;
+	font-family: 'Righteous', sans-serif;
+	color: #00F1AF;
+	padding: 15px;
+}
+
+#github {
+	background: #00F1AF;
+	border-radius: 50%;
+	border: 2px solid #00F1AF;
+}
+
+#linkedin {
+	background: #00F1AF;
+	border: 2px solid #00F1AF;
+}
+
+#contact-h4 a {
+	color: #00F1AF;
+	border-bottom: 2px solid #00F1AF;
+	border-top: 2px solid #00F1AF;
+}
+
+#contact-h4 a:hover,
+#contact-h4 a:visited {
+	color: #00F1AF;
+}
+
+
+/***** Clearfix *****/
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
